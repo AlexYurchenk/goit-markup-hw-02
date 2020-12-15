@@ -20,7 +20,12 @@ a{ text-decoration: none; }
 .header-contacts:hover{color: #2196F3;}
 .button{color: #FFFFFF;
 background-color: #2196F3;}
-
+.button-primary{color: #212121;
+background-color: #F5F4FA;}
+.button-primary:hover,
+.button-primary:focus{color: #FFFFFF;
+background-color: #2196F3;}
+.link-current{color: #2196F3;}
   color:
 :root {
     --primary-text-color: #757575;
