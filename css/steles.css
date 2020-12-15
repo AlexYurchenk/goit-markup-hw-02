@@ -1,0 +1,29 @@
+body{background-color: #E5E5E5;
+  color:#757575 ;}
+.logo {color: #2196F3;}
+.list{list-style: none;}
+a{ text-decoration: none; }
+.hero{color: #ffffff   ;}
+.title{color: #212121    ;}
+.address{color: #FFFFFF;}
+.link{color: #212121;}
+.header-logo{color: #000000;}
+.footer-logo{color: #ffffff;}
+.header{background-color: #ffffff;}
+.section-team {background-color: #F5F4FA;}
+.footer{background-color: #2F303A;}
+.footer-contacts{color: rgba(255, 255, 255, 0.6)    ;}
+.header-contacts{color: #757575    ;}
+.site-nav .link:hover,
+.site-nav .link:focus {color: #2196F3    ;}
+.header-contacts:focus,
+.header-contacts:hover{color: #2196F3;}
+.button{color: #FFFFFF;
+background-color: #2196F3;}
+
+  color:
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-white-color: #ffffff;
