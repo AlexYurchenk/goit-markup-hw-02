@@ -49,7 +49,10 @@ font-size: 16px;
 line-height: 1,875em;
 letter-spacing: 0.06em;}
 .button-primary{color: #212121;
-background-color: #F5F4FA;}
+background-color: #F5F4FA;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63em;}
 .link-current{color: #2196F3;}
 .button-primary:hover,
 .button-primary:focus{color#FFFFFF;background-color: #2196F3;}
@@ -81,4 +84,15 @@ line-height: 1.19em;}
 .team-position{
   font-size: 16px;
 line-height: 1.19px;
+}
+.portfolio-title{
+  color: #212121;
+font-weight: 700;
+font-size: 18px;
+line-height: 2em;
+letter-spacing: 0.06em;
+}
+.portfolio-description{
+  font-size: 16px;
+line-height: 1.86em;
 }
