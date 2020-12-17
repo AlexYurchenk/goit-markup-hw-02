@@ -1,27 +1,84 @@
+
+
 body{background-color: #E5E5E5;
-  color:#757575 ;}
-.logo {color: #2196F3;}
+  color:#757575 ;
+font-family: Roboto,sans-serif;
+letter-spacing: 0.03em;
+font-size: 14px;
+line-height: 1.7em}
+
+.logo {color: #2196F3;
+font-family: Raleway,sans-serif;}
 .list{list-style: none;}
 a{ text-decoration: none; }
-.hero{color: #ffffff   ;}
-.title{color: #212121    ;}
-.address{color: #FFFFFF;}
+.hero{color: #ffffff   ;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36em;
+  text-align: center;
+  letter-spacing: 0.06em;}
+.title{color: #212121    ;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14em;}
+.address{color: #FFFFFF;
+  font-size: 14px;
+  line-height: 1.17em;}
 .link{color: #212121;}
 .header-logo{color: #000000;}
 .footer-logo{color: #ffffff;}
 .header{background-color: #ffffff;}
-.section-team {background-color: #F5F4FA;}
+.team {background-color: #F5F4FA;}
 .footer{background-color: #2F303A;}
-.footer-contacts{color: rgba(255, 255, 255, 0.6)    ;}
-.header-contacts{color: #757575    ;}
+.footer-contacts{color: rgba(255, 255, 255, 0.6)    ;
+  font-size: 14px;
+  line-height: 1.17em;}
+.header-contacts{color: #757575    ;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14em;
+  letter-spacing: 0.02em;}
 .site-nav .link:hover,
 .site-nav .link:focus {color: #2196F3    ;}
 .header-contacts:focus,
 .header-contacts:hover{color: #2196F3;}
 .button{color: #FFFFFF;
-background-color: #2196F3;}
+background-color: #2196F3;
+font-weight: 700;
+font-size: 16px;
+line-height: 1,875em;
+letter-spacing: 0.06em;}
 .button-primary{color: #212121;
 background-color: #F5F4FA;}
 .link-current{color: #2196F3;}
 .button-primary:hover,
 .button-primary:focus{color#FFFFFF;background-color: #2196F3;}
+.header-logo{font-family: Raleway,sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19em; }
+.footer-logo{font-family: Raleway,sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19em; }
+ .site-nav.list{;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14em;
+    letter-spacing: 0.02em;}
+.activity-title{color: #212121  ;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 1.17em}
+.team-title{color: #212121  ;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17em}
+.title-worker{color: #212121  ;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19em;}
+.team-position{
+  font-size: 16px;
+line-height: 1.19px;
+}
