@@ -1,63 +1,74 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196F3;
+  --primary-white-color: #E5E5E5;
+  --secondary-white-color:#ffffff ;
+  --logo-color: #000000;
+  --team-background-color:#F5F4FA;
+  --footer-background-color: #2F303A;
+  --footer-contacts-color:rgba(255, 255, 255, 0.6) ;
+}
 
 
-body{background-color: #E5E5E5;
-  color:#757575 ;
+body{background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
 font-family: Roboto,sans-serif;
 letter-spacing: 0.03em;
 font-size: 14px;
 line-height: 1.7em}
 
-.logo {color: #2196F3;
+.logo {color: var(--accent-color);
 font-family: Raleway,sans-serif;}
 .list{list-style: none;}
 a{ text-decoration: none; }
-.hero{color: #ffffff   ;
+.hero{color: var(--secondary-white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36em;
   text-align: center;
   letter-spacing: 0.06em;}
-.title{color: #212121    ;
+.title{color: var(--title-text-color)   ;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14em;}
-.address{color: #FFFFFF;
+.address{color: var(--secondary-white-color);
   font-size: 14px;
   line-height: 1.17em;}
-.link{color: #212121;}
-.header-logo{color: #000000;}
-.footer-logo{color: #ffffff;}
-.header{background-color: #ffffff;}
-.team {background-color: #F5F4FA;}
-.footer{background-color: #2F303A;}
-.footer-contacts{color: rgba(255, 255, 255, 0.6)    ;
+.link{color: var(--title-text-color)   ;}
+.header-logo{color: var(--logo-color);}
+.footer-logo{color: var(--secondary-white-color)}
+.header{background-color: var(--secondary-white-color)}
+.team {background-color: var(--team-background-color);}
+.footer{background-color: var(--footer-background-color);}
+.footer-contacts{color: var(--footer-contacts-color)   ;
   font-size: 14px;
   line-height: 1.17em;}
-.header-contacts{color: #757575    ;
+.header-contacts{color:var(--primary-text-color)  ;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14em;
   letter-spacing: 0.02em;}
 .site-nav .link:hover,
-.site-nav .link:focus {color: #2196F3    ;}
+.site-nav .link:focus {color:var(--accent-color);}
 .header-contacts:focus,
-.header-contacts:hover{color: #2196F3;}
-.button{color: #FFFFFF;
-background-color: #2196F3;
+.header-contacts:hover{color: var(--accent-color);}
+.button{color: var(--secondary-white-color);
+background-color: var(--accent-color);
 font-family: Roboto,sans-serif;
 font-weight: 700;
 font-size: 16px;
 line-height: 1,875em;
 letter-spacing: 0.06em;}
-.button-primary{color: #212121;
-background-color: #F5F4FA;
+.button-primary{color: var(--title-text-color)   ;
+background-color: var(--team-background-color);
 font-family: Roboto,sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.63em;}
-.link-current{color: #2196F3;}
+.link-current{color: var(--accent-color);}
 .button-primary:hover,
-.button-primary:focus{color#FFFFFF;background-color: #2196F3;}
+.button-primary:focus{color:var(--secondary-white-color);background-color: var(--accent-color);}
 .header-logo{font-family: Raleway,sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -71,15 +82,15 @@ line-height: 1.63em;}
     font-size: 14px;
     line-height: 1.14em;
     letter-spacing: 0.02em;}
-.activity-title{color: #212121  ;
+.activity-title{color: var(--title-text-color)  ;
       font-weight: 700;
       font-size: 36px;
       line-height: 1.17em}
-.team-title{color: #212121  ;
+.team-title{color:var(--title-text-color)  ;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17em}
-.title-worker{color: #212121  ;
+.title-worker{color: var(--title-text-color)  ;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.19em;}
@@ -88,7 +99,7 @@ line-height: 1.19em;}
 line-height: 1.19px;
 }
 .portfolio-title{
-  color: #212121;
+  color: var(--title-text-color) ;
 font-weight: 700;
 font-size: 18px;
 line-height: 2em;
