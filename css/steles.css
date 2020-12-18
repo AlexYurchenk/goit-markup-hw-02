@@ -23,6 +23,7 @@ font-family: Raleway,sans-serif;}
 .list{list-style: none;}
 a{ text-decoration: none; }
 .hero{color: var(--secondary-white-color);
+  background-color: var(--footer-background-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36em;
