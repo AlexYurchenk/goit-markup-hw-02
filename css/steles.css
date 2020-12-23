@@ -91,11 +91,7 @@ line-height: 1.63em;}
     font-size: 14px;
     line-height: 1.14em;
     letter-spacing: 0.02em;}
-.activity-title{color: var(--title-text-color)  ;
-      font-weight: 700;
-      font-size: 36px;
-      line-height: 1.17em}
-.team-title{color:var(--title-text-color)  ;
+h2{color:var(--title-text-color)  ;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17em}
